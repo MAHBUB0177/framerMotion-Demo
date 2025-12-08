@@ -11,7 +11,6 @@ const DragableComponent = () => {
     };
 
   return (
-    <div>
      <div
       ref={constraintsRef}
       className="w-full h-[400px] border border-gray-300 relative mb-5 flex items-center justify-center"
@@ -26,7 +25,6 @@ const DragableComponent = () => {
       >
         Animated Box
       </motion.div>
-    </div>
     </div>
   )
 }

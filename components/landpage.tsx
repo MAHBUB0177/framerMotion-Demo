@@ -5,18 +5,18 @@ import { FaArrowAltCircleDown } from 'react-icons/fa'
 import DragableComponent from './dragableComponent'
 import SpinningRing from './circleDiv'
 import GradientDiv from './gradientDiv'
+import CommonHeader from './commonHeader'
 
 const Landpage = () => {
+  const data=`Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam aspernatur, dolorem fugiat architecto dignissimos, ab tenetur consequatur itaque sapiente cumque porro dolor sequi recusandae omnis saepe blanditiis repellat quia? Aliquam.`
   return (
-    <div className=' mt-10  justify-center items-center mx-auto text-black'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, fugit! Dicta, hic itaque praesentium porro reiciendis, eveniet vero incidunt eligendi aperiam voluptatibus libero rerum nulla sunt velit ab molestiae. Sunt.
-
+    <div className='mt-10  justify-center items-center mx-auto text-black'>
+   <CommonHeader title={data}/>
       {/* <Brac3DSlider /> */}
-
       <div>
         <Productcard />
         <SpinningRing />
         <DragableComponent />
-
         {/* <GradientDiv /> */}
       </div>
 
