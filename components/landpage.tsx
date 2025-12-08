@@ -3,6 +3,7 @@ import Brac3DSlider from './Slider'
 import Productcard from './productcard'
 import { FaArrowAltCircleDown } from 'react-icons/fa'
 import DragableComponent from './dragableComponent'
+import SpinningRing from './circleDiv'
 
 const Landpage = () => {
   return (
@@ -12,6 +13,9 @@ const Landpage = () => {
 
     <div>
         <Productcard />
+
+            <SpinningRing />
+
 
         <DragableComponent />
     </div>

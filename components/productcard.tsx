@@ -1,7 +1,8 @@
 'use client'
 import React, { useState } from 'react';
-import { AnimatePresence, Reorder, motion, spring } from "framer-motion";
+import {  Reorder, motion } from "framer-motion";
 import { FaArrowAltCircleDown } from 'react-icons/fa';
+
 
 const Productcard = () => {
     // const [items, setItems] = useState([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30]);
@@ -21,7 +22,7 @@ const Productcard = () => {
         setRows(updatedRows);
     };
     return (
-        
+
         <div className="p-4">
             {rows.map((rowItems, rowIndex) =>
                 <Reorder.Group
@@ -71,7 +72,6 @@ const Productcard = () => {
                 </Reorder.Group>
             )}
 
-
             <motion.div
                 layout
                 className="bg-white rounded-2xl shadow w-[100px] h-[100px] flex items-center justify-center mt-4 mx-auto mb-8"
@@ -85,6 +85,8 @@ const Productcard = () => {
             >
                 <FaArrowAltCircleDown className="h-10 w-10 text-gray-700" />
             </motion.div>
+
+
         </div>
 
     );
