@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 const SpinningRing = () => {
     return (
-        <div className="relative w-48 h-48 flex  justify-center  items-center mx-auto my-4">
+        <div className="relative w-48 h-48 flex  justify-center  items-center mx-auto my-8">
             {/* Outer spinning ring */}
             <motion.div
                 className="absolute w-full h-full rounded-full border-8 border-blue-500 border-t-transparent"

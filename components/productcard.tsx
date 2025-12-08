@@ -74,7 +74,7 @@ const Productcard = () => {
 
             <motion.div
                 layout
-                className="bg-white rounded-2xl shadow w-[100px] h-[100px] flex items-center justify-center mt-4 mx-auto mb-8"
+                className="bg-white rounded-2xl shadow w-[100px] h-[100px] flex items-center justify-center mt-4 mx-auto "
                 animate={{ y: [0, -20, 0] }} // bounce up and down
                 transition={{
                     duration: 1,       // 1 second for full cycle
