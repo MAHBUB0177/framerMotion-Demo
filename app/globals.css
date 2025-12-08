@@ -68,3 +68,30 @@ body {
   opacity: 0.45;
   z-index: 1;
 }
+
+
+
+/* For WebKit browsers (Chrome, Edge, Safari) */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background: #fff; /* Background of scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+  background: orange; 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #e76b00; /* Darker orange on hover */
+}
+
+
+/* Firefox scrollbar */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: orange white;
+}

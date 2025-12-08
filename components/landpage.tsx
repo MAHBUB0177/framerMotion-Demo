@@ -4,6 +4,7 @@ import Productcard from './productcard'
 import { FaArrowAltCircleDown } from 'react-icons/fa'
 import DragableComponent from './dragableComponent'
 import SpinningRing from './circleDiv'
+import GradientDiv from './gradientDiv'
 
 const Landpage = () => {
   return (
@@ -15,6 +16,8 @@ const Landpage = () => {
         <Productcard />
         <SpinningRing />
         <DragableComponent />
+
+        {/* <GradientDiv /> */}
       </div>
 
     </div>
