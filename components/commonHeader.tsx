@@ -1,15 +1,41 @@
 
 'use client'
 import React from 'react'
-import { motion } from "framer-motion";
+import { AnimatePresence, motion } from "framer-motion";
 
 
-const CommonHeader = ({ title }: { title: String }) => {
+const CommonHeader = ({ title ,subtitle}: { title: String,subtitle:string }) => {
     return (
-        <motion.div
-            className='text-xl text-slate-500 font-medium px-40 text-justify my-8'
-            initial={{ opacity: 0, y: 40 }}
-            whileInView={{ opacity: 1, y: 0 }}>{title}</motion.div>
+        <div className="pb-5">
+
+    <AnimatePresence mode="wait">
+      <motion.div
+        initial={{ opacity: 0, y: 10 }}
+        animate={{ opacity: 1, y: 0 }}
+        exit={{ opacity: 0, y: -10 }}
+        transition={{ duration: 0.4 }}
+      >
+    <motion.h1
+      className="text-2xl font-bold text-center text-white"
+      initial={{ opacity: 0, scale: 0.8 }}
+      animate={{ opacity: 1, scale: 1 }}
+      transition={{ duration: 0.5 }}
+    >
+     {title}
+    </motion.h1>
+
+    <motion.h4
+      className="text-xl font-light text-center text-white"
+      initial={{ opacity: 0, scale: 0.8 }}
+      animate={{ opacity: 1, scale: 1 }}
+      transition={{ duration: 0.5 }}
+    >
+     {subtitle}
+    </motion.h4>
+    
+      </motion.div>
+     </AnimatePresence>
+    </div>
     )
 }
 
