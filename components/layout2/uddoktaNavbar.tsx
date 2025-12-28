@@ -2,7 +2,8 @@ import Link from 'next/link';
 import React from 'react'
 
 const UddoktaNavbar = () => {
-    const items = [ { name: "Item 1", slug: "university/brac-university" },
+    const items = [
+         { name: "Item 1", slug: "university/brac-university" },
          { name: "Item 2", slug: "university/daffodil-university" }, 
          { name: "Item 3", slug: "university/east-west-university" }, ];
   return (
