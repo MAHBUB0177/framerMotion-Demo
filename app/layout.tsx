@@ -20,34 +20,34 @@ const geistMono = Geist_Mono({
 // };
 
 export const metadata = {
-  title: "BRAC Bank | Leading Private Commercial Bank in Bangladesh",
+  title: "Motion Web | Leading Private Motion Web in Bangladesh",
   description:
-    "Bangladesh’s most trusted private commercial bank. Working towards poverty free future with innovation.",
+    "Motion Web most trusted private commercial bank. Working towards poverty free future with innovation.",
   keywords:
-    "BRAC Bank, SME banking Bangladesh, digital banking Bangladesh, retail banking, savings account, SME loan, fixed deposit, online banking, sustainable banking, financial inclusion, Credit Card, Auto Loan, Car Loan, Home Loan",
-  authors: [{ name: "BRAC Bank Limited" }],
-  creator: "BRAC Bank Limited",
+    "Motion Web digital banking Bangladesh, retail banking, savings account, SME loan, fixed deposit, online banking, sustainable banking, financial inclusion, Credit Card, Auto Loan, Car Loan, Home Loan",
+  authors: [{ name: "Motion Web Limited" }],
+  creator: "Motion Web Pvt Ltd",
   language: "en",
   alternates: {
-    canonical: `https://www.bracbank.com/en`,
-    languages: {
-      en: "https://www.bracbank.com/en",
-      bn: "https://www.bracbank.com/bn",
-    },
+    canonical: `https://airbnb-forntend-ugiy.vercel.app/`,
+    // languages: {
+    //   en: "https://www.bracbank.com/en",
+    //   bn: "https://www.bracbank.com/bn",
+    // },
   },
   // Open Graph (Social Media)
   openGraph: {
-    title: "BRAC Bank | Leading Private Commercial Bank in Bangladesh",
+    title: "Motion Web | Leading Private Commercial Bank in Bangladesh",
     description:
       "Bangladesh’s most trusted private commercial bank. Working towards poverty free future with innovation.",
-    url: "https://www.bracbank.com",
-    siteName: "BRAC Bank",
+    url: "https://airbnb-forntend-ugiy.vercel.app/",
+    siteName: "Motion Web",
     images: [
       {
-        url: "https://brackweb.s3.ap-southeast-1.amazonaws.com/uploads/all/og-image.69073c9258450.jpg",
+        url: "https://framer-motion-demo-ten.vercel.app/og.png",
         width: 1200,
         height: 630,
-        alt: "BRAC Bank",
+        alt: "Motion Web",
       },
     ],
     locale: "en_US",
@@ -56,11 +56,11 @@ export const metadata = {
   // Twitter Card
   twitter: {
     card: "summary_large_image",
-    title: "BRAC Bank | Leading Private Commercial Bank in Bangladesh",
+    title: "Motion Web | Leading Private Commercial Bank in Bangladesh",
     description:
       "Bangladesh’s most trusted private commercial bank. Working towards poverty free future with innovation.",
     images: [
-      "https://brackweb.s3.ap-southeast-1.amazonaws.com/uploads/all/og-image.69073c9258450.jpg",
+      "https://framer-motion-demo-ten.vercel.app/og.png",
     ],
   },
   // Additional Meta Tags
