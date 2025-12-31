@@ -4,7 +4,7 @@ import React from 'react'
 import { AnimatePresence, motion } from "framer-motion";
 
 
-const CommonHeader = ({ title ,subtitle}: { title: String,subtitle:string }) => {
+const CommonHeader = ({ title ,subtitle}: { title: string,subtitle:string }) => {
     return (
         <div className="pb-5">
 
