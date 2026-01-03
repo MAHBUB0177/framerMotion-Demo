@@ -1,3 +1,4 @@
+'use client'
 import React from "react";
 import nodatafound from "@/public/nodatafound.png";
 import Image from "next/image";
