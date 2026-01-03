@@ -16,6 +16,14 @@ export async function generateMetadata() {
      
       url: `https://airbnb-forntend-ugiy.vercel.app/`,
     },
+    images: [
+      {
+        url: "https://framer-motion-demo-ten.vercel.app/og.png",
+        width: 1200,
+        height: 630,
+        alt: "Motion Web",
+      },
+    ],
   };
 }
 const Product = async() => {
