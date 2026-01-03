@@ -4,15 +4,15 @@ import "./globals.css";
 import Navbar from "@/components/layout/rootHeader";
 import Footer from "@/components/layout/rootFooter";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
+// const geistSans = Geist({
+//   variable: "--font-geist-sans",
+//   subsets: ["latin"],
+// });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+// const geistMono = Geist_Mono({
+//   variable: "--font-geist-mono",
+//   subsets: ["latin"],
+// });
 
 // export const metadata: Metadata = {
 //   title: "Create Next App",
@@ -51,7 +51,7 @@ export const metadata = {
       },
     ],
     locale: "en_US",
-    type: "website",
+    type: "website", 
   },
   // Twitter Card
   twitter: {
@@ -82,7 +82,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        // className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <Navbar/>
         <div className="bg-white min-h-screen">
