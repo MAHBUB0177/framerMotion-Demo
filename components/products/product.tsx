@@ -27,26 +27,7 @@ type PopularProductProps = {
 };
 
 
-export async function generateMetadata() {
-  return {
-    title: "Motion Web | " +  "Product Page",
-    description: "Read more about this topic.",
-    alternates: {
-      canonical: `https://airbnb-forntend-ugiy.vercel.app/`,
-    
-    },
-    openGraph: {
-      title:
-        
-           "Motion Web | Leading Private Commercial Bank in Bangladesh",
-      description:
-        
-           "Motion Web is a trusted financial institution...",
-     
-      url: `https://airbnb-forntend-ugiy.vercel.app/`,
-    },
-  };
-}
+
 
 
 const PopularProduct = ({ products }: PopularProductProps) => {

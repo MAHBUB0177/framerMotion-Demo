@@ -2,6 +2,22 @@ import React from 'react';
 // import { GetSearchProduct } from "@/store/Action/Action";
 import PopularProduct from '@/components/products/product';
 
+export async function generateMetadata() {
+  return {
+    title: "Motion Web | " +  "Product Page",
+    description: "Read more about this topic.",
+    alternates: {
+      canonical: `https://airbnb-forntend-ugiy.vercel.app/`,
+    
+    },
+    openGraph: {
+      title:"Motion Web |  " +  "Product Page",
+      description:"Read more about this topic.",
+     
+      url: `https://airbnb-forntend-ugiy.vercel.app/`,
+    },
+  };
+}
 const Product = async() => {
   
 // const response = await GetSearchProduct(1, 15, {});
